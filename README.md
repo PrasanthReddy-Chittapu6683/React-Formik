@@ -1,3 +1,41 @@
+# React Formik
+
+### Simple form with 3 fields
+Created simple HTML form with 3 fields. 
+### useFormik Hook
+Install `npm add formik` library to use `useFormik` hook to connect the form to React.
+
+### Managing form `state`
+To handle form `state` we need to use `initialValues` object + `formik.handleChange` helper method provided by Formik.
+
+###  Handling form submission
+To handle form submission we need to use `onSubmit` method + `formik.handleSubmit` helper method provided by Formik
+### Form validations
+Validate function returns the object contains error messages for all the Form fields.
+We have alternate way to specify the validation rules using `validationSchema` object using `YUP (npm add yup) library`.
+Once we have the error rules we can display them using `formik.errors` and `formik.touched` objects by accessing each individual fields.  
+
+
+### Formik Components - 
+We can develope the form using Formik Components which gives predefiend tags can use
+
+1.  Formik : It works as a Context Provider
+2.  Form : It takes cares of regualr <form> tag
+3.  Field : It takes cares of <input> fields
+4.  ErrorMessage : It takes cares of validations. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
