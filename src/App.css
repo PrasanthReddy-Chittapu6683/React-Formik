@@ -15,7 +15,8 @@ label {
 }
 
 input[type='text'],
-input[type='email'] {
+input[type='email'],input ,
+textarea {
   display: flex;
   width: 400px;
   padding: 6px 12px;
@@ -31,13 +32,23 @@ input[type='email'] {
 
 button[type='submit'] {
   color: #f8f8f8;
-  background-color: rgb(5, 9, 255);
+  background-color: #00b6ee;
   background-image: none;
-  border: 1px solid rgb(94, 178, 218);border-radius: 4px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
   height: 30px;
   width: 60px;
 }
-
+button[type='button']{
+  color: #f8f8f8;
+  background-color: #00b6ee;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  margin:5px;
+  height: 20px;
+  width: 20px;
+   
+}
 .form-control {
   margin-bottom: 20px;
 }
